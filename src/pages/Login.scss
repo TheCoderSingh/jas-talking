@@ -1,0 +1,17 @@
+@import "../colors.scss";
+
+#login {
+	background-color: $blueGreen;
+	height: 100vh;
+	display: grid;
+	align-content: center;
+
+	h1 {
+		color: #fff;
+		font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+		text-align: center;
+		font-size: 1.4em;
+		font-weight: 600;
+		margin-bottom: 40px;
+	}
+}
