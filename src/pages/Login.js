@@ -1,7 +1,8 @@
 import React from "react";
+import "./Login.scss";
 
 const Login = () => (
-	<div>
+	<div id="login">
 		<p>Login</p>
 	</div>
 );
