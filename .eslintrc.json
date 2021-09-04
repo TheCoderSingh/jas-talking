@@ -7,7 +7,7 @@
         "plugin:react/recommended",
         "plugin:prettier/recommended",
         "airbnb",
-        "prettier/react"
+        "prettier"
     ],
     "parserOptions": {
         "ecmaFeatures": {
@@ -20,5 +20,6 @@
         "react"
     ],
     "rules": {
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
     }
 }
