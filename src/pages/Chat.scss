@@ -1,0 +1,21 @@
+@import "../colors.scss";
+
+.chat-header {
+	background-color: $blueGreen;
+	display: grid;
+	grid-template-columns: 1fr 8fr;
+	align-items: center;
+	height: 40px;
+
+	.chat-image {
+		grid-auto-flow: row;
+	}
+
+	.chat-header-details {
+		justify-self: center;
+	}
+
+	.chat-username {
+		font-size: 0.8em;
+	}
+}
