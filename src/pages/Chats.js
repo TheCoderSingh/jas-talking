@@ -4,7 +4,10 @@ import "./Chats.scss";
 
 const Chats = () => (
 	<div id="chats">
-		<h1>Your Chats</h1>
+		<h1>
+			Welcome, <span>thecodersingh</span>!
+		</h1>
+		<h3>Your Chats</h3>
 		<ChatList />
 	</div>
 );
