@@ -51,6 +51,12 @@
 			color: $blueGreen;
 			font-size: 1em;
 			font-weight: bold;
+			cursor: pointer;
+		}
+
+		button:hover {
+			border-radius: 0;
+			transition: linear 0.1s;
 		}
 	}
 }
