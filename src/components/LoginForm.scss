@@ -54,3 +54,27 @@
 		}
 	}
 }
+
+@media screen and (min-width: 400px) {
+	#login-form {
+		form {
+			max-width: 40%;
+		}
+	}
+}
+
+@media screen and (min-width: 900px) {
+	#login-form {
+		form {
+			max-width: 30%;
+		}
+	}
+}
+
+@media screen and (min-width: 1150px) {
+	#login-form {
+		form {
+			max-width: 15%;
+		}
+	}
+}
