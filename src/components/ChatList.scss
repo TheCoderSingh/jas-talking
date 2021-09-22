@@ -1,0 +1,35 @@
+@import "../colors.scss";
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	width: 80%;
+
+	li {
+		margin: 3px;
+		font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+		background-color: #fff;
+		text-align: center;
+		height: 32px;
+		padding-top: 8px;
+		cursor: pointer;
+	}
+}
+
+@media screen and (min-width: 400px) {
+	ul {
+		max-width: 60%;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	ul {
+		max-width: 35%;
+	}
+}
+
+@media screen and (min-width: 1150px) {
+	ul {
+		max-width: 25%;
+	}
+}

@@ -1,0 +1,13 @@
+@import "../colors.scss";
+
+#chats {
+	background-color: $blueGreen;
+	height: 100vh;
+	display: grid;
+	align-content: center;
+	justify-items: center;
+
+	h1 {
+		margin: 0;
+	}
+}
